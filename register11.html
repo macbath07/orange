@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>ORANGE</title>
+</head>
+<body style="background-color:white;>
+    <div class="container">
+        
+ <div style="background-image: url('mid.jpg');"> 
+
+
+
+        <div style="text-align:center">
+          <h2><font size="+5" color="orange"><u>One Two Three MATRIMONY</u></h2></font>
+          
+          <p><font size="+3" color="red">trust is the base of beautiful life</p></font>
+        </div>
+        <div class="raw">
+
+        
+
+
+<style>
+img {
+  border-radius: 75%;
+}
+</style>
+         <div style="text-align: center;"
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="1.jpg" style="width:500" height="300">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="3.jpg" style="width:500" height="300">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="2.jpg" style="width:500" height="300">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="4.png" style="width:500" width="300">
+  
+</div>
+</div>
+</div>
+</h2>
+
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+<div style="text-align:center" class="raw">
+            <img src="123.png" style="width:500">
+          </div> 
+
+
+</div>
+        
+</div>
+
+
+ 
+
+
+
+
+
+
+<div style="background-image: url('IMG-20200920-WA0029.jpg');"> 
+<div style="text-align:center">
+          <h3 style="color:red"><u>we have match for you</u></h3>
+          
+
+          <div style="text-align:center" class="raw">
+            <div style="color:green">
+            <form id="submit-form" action="">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="name" placeholder="Name..">
+              
+              
+              
+              <label for="fname">Contact number</label>
+              <input type="text" id="fname" name="name" placeholder="mobile number..">
+              <hr>
+
+             
+              <label for="fname">Qualification</label>
+              <input type="text" id="fname" name="name" placeholder="your education..">
+
+              <label for="fname">Date of Birth</label>
+              <input type="text" id="fname" name="name" placeholder="DD/MM/YYYY">
+              <hr>
+
+               <label for="fname">Cast</label>
+              <input type="text" id="fname" name="name" placeholder="provide your cast..">
+
+
+
+
+
+
+
+
+
+
+
+              
+              <hr>
+              <label for="subject">write about you</label>
+              <textarea id="subject" name="message" placeholder="Write something about you.." style="width:1000px"></textarea>
+              
+              <div class="raw">
+
+
+
+
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          
+        </div>
+      </div>
+      <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbySQ61C_pQgQltMClf9XiseLsyi6DHlq4xMgCLv/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    
+    </script>
+
+<div style="text-align:center">
+          <h5><font size="+5" color="red"><u>FREE REGISTRATION FOR YOU..</u></h5></font>
+        
+</div>
+<div style="text-align:right;"
+ <h6><font size="3" color="white">contact us on whatsapp :+917012960454       </h6></font> 
+ </div>          
+</body>
+</html>
